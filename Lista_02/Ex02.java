@@ -1,5 +1,5 @@
 import java.util.Scanner;   
-public class Ex01 {
+public class Ex02 {
     
     public static void main(String[] args) {
         double notaUm, notaDois, notaTres, notaQuatro, media;
