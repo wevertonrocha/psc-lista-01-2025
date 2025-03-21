@@ -16,7 +16,7 @@ public class Ex04 {
         System.out.println("Digite o valor do seu salário: ");
         salario = sc.nextDouble();
         Total = Boleto1 + Boleto2 + Boleto3 + Boleto4;
-        SalarioLiquido = salario - (salario);
+        SalarioLiquido = (salario - (salario * 0.14));
         System.out.println("O total de contas: " + Total);
         System.out.println("O salário liquido: " + SalarioLiquido);  
         System.out.println("O restante do salário gente fina : " + (SalarioLiquido - Total));

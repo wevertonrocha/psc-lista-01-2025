@@ -10,7 +10,7 @@ public class Ex01 {
         System.out.println("Digite a terceira nota: ");
         Nota3 = sc.nextDouble();
         Media = (Nota1 + Nota2 + Nota3) / 3;
-        System.out.println("A média é: " + Media);
+        System.out.printf("A média é: %.2f", Media);
         
     }
 }
