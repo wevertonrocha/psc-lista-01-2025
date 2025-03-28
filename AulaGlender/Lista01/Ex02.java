@@ -12,5 +12,6 @@ public class Ex02 {
         System.out.println("Digite o valor do quarto boleto: ");
         valorBoleto04 = sc.nextDouble();
         valorTotal = valorBoleto01 + valorBoleto02 + valorBoleto03 + valorBoleto04;
+        System.out.println("O valor total dos boletos é: " + String.format("%.2f", valorTotal));
     }
 }
