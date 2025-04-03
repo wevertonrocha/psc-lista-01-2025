@@ -42,9 +42,9 @@ public class Desafio_Sonic3{
         EmocoesNegativas = medo + desanimo + incerteza;
         System.out.println("A soma das emoções positivas é: " + EmocoesPositivas + " e a soma das emoções negativas é: " + EmocoesNegativas + ".");
         if (EmocoesPositivas > EmocoesNegativas){
-            System.out.println("Sonic, Knuckles e Tails venceram o Sadow!");
+            System.out.println("Sonic, Knuckles e Tails venceram o Shadow!");
         } else{
-            System.out.println("Sonic, Knuckles e Tails foram derrotados pelo Sadow!");
+            System.out.println("Sonic, Knuckles e Tails foram derrotados pelo Shadow!");
         }
 
 
